@@ -2,7 +2,7 @@ locals {
   env = "sit"
   default_tags = {
     env                = local.env
-    systemNumber       = "12345"
+    systemNumber       = "123451"
     billingDescription = "Sandbox"
     billingContact     = "sukhdeep.singh@posten.no"
     billingUnit        = "123456"

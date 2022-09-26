@@ -15,7 +15,7 @@ jobs:
   terraform:
     uses: sukhdeepsingh1/azure-devops-sandbox/.github/workflows/terraform-plan-apply.yml@main
     with:
-      TF_WORKING_DIR: "./sit/resource-groups/"
+      TF_WORKING_DIR: "./sandbox/sit-rg-sandbox-karanrathiya/"
       TF_VERSION: "1.2.8"
     secrets:
       ARM_SUBSCRIPTION_ID: ${{ secrets.DEV_ARM_SUBSCRIPTION_ID }}

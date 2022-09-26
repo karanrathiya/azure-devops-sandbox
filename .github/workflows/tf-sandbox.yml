@@ -15,7 +15,7 @@ jobs:
   terraform:
     uses: sukhdeepsingh1/azure-devops-sandbox/.github/workflows/terraform-plan-apply.yml@main
     with:
-      TF_WORKING_DIR: "./sandbox"
+      TF_WORKING_DIR: "./sandbox/karan_rathiya/"
       TF_VERSION: "1.3.0"
     secrets:
       ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
